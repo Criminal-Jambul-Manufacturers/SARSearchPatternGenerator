@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace SARSearchPatternGenerator
 {
+    //precarious toast
     public partial class Welcome : Form
     {
         public Welcome()
