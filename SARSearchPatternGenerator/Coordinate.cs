@@ -38,7 +38,7 @@ namespace SARSearchPatternGenerator
 
         public double distance(Coordinate coord)
         {
-            double er = 6366.707;
+            double er = 6366.707;//CHANGE TO: unit.convert(6366.707)
 
             double latFrom = toRadians(getLat());
             double latTo = toRadians(coord.getLat());
