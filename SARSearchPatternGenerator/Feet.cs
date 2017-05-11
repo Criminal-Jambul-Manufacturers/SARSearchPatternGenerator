@@ -15,7 +15,7 @@ namespace SARSearchPatternGenerator
 
         }
 
-        public Feet create()
+        public static Feet create()
         {
             if (unit == null)
                 unit = new Feet();

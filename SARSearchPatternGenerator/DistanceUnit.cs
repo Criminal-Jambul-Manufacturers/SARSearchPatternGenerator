@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SARSearchPatternGenerator
 {
-    abstract class DistanceUnit
+    public abstract class DistanceUnit
     {
         public abstract double convertTo(double dist);
     }
