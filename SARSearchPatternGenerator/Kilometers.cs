@@ -15,7 +15,7 @@ namespace SARSearchPatternGenerator
 
         }
 
-        public Kilometers create()
+        public static Kilometers create()
         {
             if (unit == null)
                 unit = new Kilometers();

@@ -15,7 +15,7 @@ namespace SARSearchPatternGenerator
 
         }
 
-        public NauticalMiles create()
+        public static NauticalMiles create()
         {
             if (unit == null)
                 unit = new NauticalMiles();

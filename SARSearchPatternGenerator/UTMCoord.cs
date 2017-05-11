@@ -81,7 +81,7 @@ namespace SARSearchPatternGenerator
 
             this.latitude = latitude;
             this.longitude = longitude;
-    }
+        }
 
         public override void fromBase()
         {

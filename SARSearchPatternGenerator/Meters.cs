@@ -15,7 +15,7 @@ namespace SARSearchPatternGenerator
 
         }
 
-        public Meters create()
+        public static Meters create()
         {
             if (unit == null)
                 unit = new Meters();

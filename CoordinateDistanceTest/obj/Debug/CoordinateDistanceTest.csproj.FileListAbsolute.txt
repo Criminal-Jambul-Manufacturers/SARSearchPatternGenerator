@@ -1,0 +1,8 @@
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\CoordinateDistanceTest.dll
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\CoordinateDistanceTest.pdb
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\SARSearchPatternGenerator.exe
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\SARSearchPatternGenerator.pdb
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.csprojResolveAssemblyReference.cache
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.dll
+C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.pdb
