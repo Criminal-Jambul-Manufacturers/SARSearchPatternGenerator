@@ -14,12 +14,44 @@ namespace SARSearchPatternGenerator
 
         public UTMCoord(int lngZone, char latZone, double UTMEasting, double UTMNorthing)
         {
+            char[] invalidChars = { 'A', 'a', 'B', 'b', 'I', 'i', 'O', 'o', 'Y', 'y', 'Z', 'z' };
+            if (Array.IndexOf(invalidChars, latZone) != -1)
+                throw new OutOfBoundsCoordinateException("Latitude zone " + latZone
+                    + " is invalid");
+            if (lngZone > 60 || lngZone < 0)
+                throw new OutOfBoundsCoordinateException("Longitude zone " + lngZone
+                    + " is invalid");
+            if(UTMNorthing > 10000000 || UTMNorthing < 0)
+                throw new OutOfBoundsCoordinateException("Northing must be between 0 and 10000000");
+            if (UTMEasting > 1000000 || UTMEasting < 0)
+                throw new OutOfBoundsCoordinateException("Easting must be between 0 and 1000000");
+
             this.lngZone = lngZone;
             this.latZone = latZone;
             this.UTMEasting = UTMEasting;
             this.UTMNorthing = UTMNorthing;
 
             toBase();
+        }
+
+        public UTMCoord(double latitude, double longitude)
+        {
+            if (latitude > 90 || latitude < -90)
+                throw new OutOfBoundsCoordinateException("Latitude " + latitude
+                    + " is invalid");
+            if (longitude > 180 || longitude < -180)
+                throw new OutOfBoundsCoordinateException("Longitude " + longitude
+                    + " is invalid");
+
+            this.latitude = latitude;
+            this.longitude = longitude;
+
+            fromBase();
+        }
+
+        public override Coordinate create(double lat, double lng)
+        {
+            return new UTMCoord(lat, lng);
         }
 
         public override void toBase()
@@ -87,7 +119,7 @@ namespace SARSearchPatternGenerator
         {
             if (getLat() < -80 || getLat() > 84)
             {
-                throw new NotDefinedOnUTMGridException("Latitude (" + getLat()
+                throw new OutOfBoundsCoordinateException("Latitude (" + getLat()
                     + ") falls outside the UTM grid.");
             }
 
@@ -229,12 +261,5 @@ namespace SARSearchPatternGenerator
             else
                 return 'Z';
         }
-    }
-}
-
-public class NotDefinedOnUTMGridException : Exception
-{
-    public NotDefinedOnUTMGridException(string message) : base(message)
-    {
     }
 }
