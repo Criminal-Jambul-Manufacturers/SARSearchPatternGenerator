@@ -1,1 +1,21 @@
 c:\users\billy-bob joe jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe.config
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe.config
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.exe
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.pdb
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.pdb
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csprojResolveAssemblyReference.cache
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.Properties.Resources.resources
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.Window.resources
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csproj.GenerateResource.Cache
+D:\Projects\Jambul\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.PatternDisplay.resources
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.InputUnits.resources
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.PatternDisplay.resources
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.Properties.Resources.resources
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.Window.resources
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.csproj.GenerateResource.Cache
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe.config
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.exe
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\bin\Debug\SARSearchPatternGenerator.pdb
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.exe
+C:\Users\Zac\SCHOOL\TERM 4\COMP 4900 - PROJECTS\Work\SARSearchPatternGenerator\SARSearchPatternGenerator\obj\Debug\SARSearchPatternGenerator.pdb

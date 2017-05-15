@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace SARSearchPatternGenerator
@@ -16,7 +16,8 @@ namespace SARSearchPatternGenerator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            // Creates a WindowController object.  The created object will pull the trigger for the main window to run.
+            WindowController wc = new WindowController();
         }
     }
 }
