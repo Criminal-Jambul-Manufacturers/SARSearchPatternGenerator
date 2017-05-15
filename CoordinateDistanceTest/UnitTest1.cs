@@ -2,8 +2,11 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SARSearchPatternGenerator;
 
-namespace CoordinateDistanceTest
+namespace SARUnitTesting
 {
+    /// <summary>
+    /// Tests for coordinate systems and finding distance between them.
+    /// </summary>
     [TestClass]
     public class UnitTest1
     {
