@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SARSearchPatternGenerator;
+using System.Collections.Generic;
 
 namespace CoordinateDistanceTest
 {
@@ -87,6 +88,35 @@ namespace CoordinateDistanceTest
         public void TestMethod9()
         {
             coords2 = new UTMCoord(-1, 'U', 481375, 5466221);
+        }
+
+        [TestMethod]
+        public void TestMethod10()
+        {
+            List<Coordinate> expected = new List<Coordinate>();
+
+            expected.Add(new DegMinSec(49, 12, 36, 122, 54, 15));
+            expected.Add(new DegMinSec(49, 12, 36, 122, 54, 13));
+            expected.Add(new DegMinSec(49, 12, 34, 122, 54, 13));
+            expected.Add(new DegMinSec(49, 12, 34, 122, 54, 18));
+
+            Coordinate datum = expected[0];
+            int numLegs = 3;
+            double orientation = 90;
+            double firstLegDistance = 0.05;
+            bool turnRight = true;
+
+            ExpandingSquarePattern actual = new ExpandingSquarePattern();
+
+            actual.generatePattern(datum, numLegs, orientation, firstLegDistance, turnRight);
+
+            for(int i = 0; i <= numLegs; i++)
+            {
+                if (!expected[i].Equals(actual.getPoint(i)))
+                {
+                    throw new Exception("Point " + i + " was not correct \nActual - " + actual.getPoint(i).ToString() + "\nExpected - " + expected[i].ToString());
+                }
+            }
         }
     }
 }

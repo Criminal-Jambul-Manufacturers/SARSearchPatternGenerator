@@ -61,13 +61,13 @@ namespace SARSearchPatternGenerator
             double distRatioCosine = Math.Cos(distRatio);
 
             //get lat and long in radians
-            double startLatRad = latitude / 180;
-            double startLonRad = longitude / 180;
+            double startLatRad = latitude * Math.PI / 180;
+            double startLonRad = longitude * Math.PI / 180;
 
             double startLatCos = Math.Cos(startLatRad);
             double startLatSin = Math.Sin(startLatRad);
 
-            double bearingRadians = bearingDegrees / 180;
+            double bearingRadians = bearingDegrees * Math.PI / 180;
 
             double endLatRads = Math.Asin((startLatSin * distRatioCosine)
                 + (startLatCos * distRatioSine * Math.Cos(bearingRadians)));
@@ -76,7 +76,17 @@ namespace SARSearchPatternGenerator
                 * distRatioSine * startLatCos,
                     distRatioCosine - startLatSin * Math.Sin(endLatRads));
 
-            return create(endLatRads * 180, endLonRads * 180);
+            return create(endLatRads / Math.PI * 180, endLonRads / Math.PI * 180);
+        }
+
+        public bool Equals(Coordinate other)
+        {
+            return other.latitude == latitude && other.longitude == longitude;
+        }
+
+        public override string ToString()
+        {
+            return "Latitude: " + latitude + " Longitude: " + longitude;
         }
 
         public abstract Coordinate create(double lat, double lng);

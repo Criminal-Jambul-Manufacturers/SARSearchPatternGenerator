@@ -91,6 +91,11 @@ namespace SARSearchPatternGenerator
             return lngSeconds;
         }
 
+        public override string ToString()
+        {
+            return "Latitude: " + latDegrees + "° " + latMinutes + "\" " + latSeconds + "' " + "\nLongitude: " + lngDegrees + "° " + lngMinutes + "\"" + lngSeconds + "'"; ;
+        }
+
         public override void fromBase()
         {
             latDegrees = (int)latitude;

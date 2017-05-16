@@ -6,3 +6,11 @@ C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPattern
 C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.csprojResolveAssemblyReference.cache
 C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.dll
 C:\Users\Billy-Bob Joe Jr\documents\visual studio 2015\Projects\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.pdb
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\CoordinateDistanceTest.dll
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\CoordinateDistanceTest.pdb
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\SARSearchPatternGenerator.exe
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\bin\Debug\SARSearchPatternGenerator.pdb
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.csprojResolveAssemblyReference.cache
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.dll
+D:\Data\Work\BCIT\CST\Level4\COMP4900\SARSearchPatternGenerator\CoordinateDistanceTest\obj\Debug\CoordinateDistanceTest.pdb
