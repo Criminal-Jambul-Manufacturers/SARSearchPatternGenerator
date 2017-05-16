@@ -13,7 +13,7 @@ namespace SARUnitTesting
         [TestMethod]
         public void TestMethod1()
         {
-            
+
         }
     }
 }
