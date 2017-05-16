@@ -1,0 +1,2 @@
+C:\Users\Billy-Bob Joe Jr\Documents\visual studio 2015\Projects\SARSearchPatternGenerator\SARUnitTesting\obj\Debug\CoordinateDistanceTest.dll
+C:\Users\Billy-Bob Joe Jr\Documents\visual studio 2015\Projects\SARSearchPatternGenerator\SARUnitTesting\obj\Debug\CoordinateDistanceTest.pdb
